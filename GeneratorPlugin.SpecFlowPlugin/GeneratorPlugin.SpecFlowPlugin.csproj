@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net472;netcoreapp3.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RuntimePlugin.SpecFlowPlugin\RuntimePlugin.SpecFlowPlugin.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SpecFlow.CustomPlugin" Version="3.9.74" />
+    </ItemGroup>
+
+</Project>
